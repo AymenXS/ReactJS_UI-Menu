@@ -1,9 +1,7 @@
-import React from 'react';
-
 const Menu = ({ items }) => {
   return (
     <div className="section-center">
-      {items.map(({ id, title, category, price, img, desc }) => {
+      {items.map(({ id, title, price, img, desc }) => {
         return (
           <article className="menu-item" key={id}>
             <img src={img} className="img" />

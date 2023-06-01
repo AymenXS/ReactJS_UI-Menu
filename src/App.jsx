@@ -1,7 +1,6 @@
-import React from 'react';
 import { useState } from 'react';
-import Categories from './Categories';
 import data from './data';
+import Categories from './Categories';
 import Menu from './Menu';
 import Title from './Title';
 
